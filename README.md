@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Building a sample store application (or maybe a blog app, time will decide)
 
-Things you may want to cover:
+* Ruby version = ruby-3.4.7
 
-* Ruby version
+* Database = Postgres 17
 
-* System dependencies
+following 2 Tutorials in parallel, lets see of I bring both the app together
 
-* Configuration
+1) Getting Started with Rails : Guide [click here](https://guides.rubyonrails.org/getting_started.html)
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+2) Build Web App With Ruby On Rails | ROR Tutorial [click here](https://www.youtube.com/watch?v=Z0Xn1iiiEZE&t=1030s)
