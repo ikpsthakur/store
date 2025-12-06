@@ -7,12 +7,27 @@ Rails.application.routes.draw do
   get "up" => "rails/health#show", as: :rails_health_check
 
   # Project lined up for Projects
-  get "products", to: "products#index"
+  #get   "products", to: "products#index"
+  #post  "products", to: "products#create"
+  #get   "products/:id", to: "products#show"
+  #patch "products/:id", to: "products#update"
+  #delete "products/:id", to: "products#destroy"
 
+    # products 		  GET    /products(.:format)		      products#index
+    #               POST   /products(.:format)		      products#create
+    # new_product 	GET    /products/new(.:format)		  products#new
+    # edit_product 	GET    /products/:id/edit(.:format)	products#edit
+    # product 		  GET    /products/:id(.:format)		  products#show
+    #               PATCH  /products/:id(.:format)		  products#update
+    #               PUT    /products/:id(.:format)		  products#update
+    #               DELETE /products/:id(.:format)		  products#destroy
+
+
+  resources :products
 
   # Project lined up for Blog
-  get "blog", to: "blog#home"
-  get "blog/about"
+  get   "blog", to: "blog#home"
+  get   "blog/about", to: "blog#about"
 
 
 
